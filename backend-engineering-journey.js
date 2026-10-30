@@ -1,2 +1,12 @@
-const student='developer'; const course='Backend Engineering'; let completedLessons=0; completedLessons=completedLessons+1;console.log("Student:", student); console.log("Course", course); console.log("Lessons completed", completedLessons);
-const studentName='Sebi Ahmed'; const learningGoals=`Backend Engineering in 12 weeks`;console.log(studentName);console.log(learningGoals);console.log(completedLessons);
+const studentName = "Sebi Ahmed";
+const course = "Backend Engineering";
+const learningGoal = "Backend Engineering in 12 weeks";
+
+let completedLessons = 0;
+
+completedLessons = completedLessons + 1;
+
+console.log("Student:", studentName);
+console.log("Course:", course);
+console.log("Learning goal:", learningGoal);
+console.log("Lessons completed:", completedLessons);

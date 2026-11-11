@@ -15,6 +15,6 @@ const student={
 | console.log("Entry is valid.")} else {console.log("Entry is invalid.")};
 | };
 isValid="number"; {
-| if (typeof student.age===isValid && student.age>1) {
+| if (typeof student.age===isValid && student.age>=1) {
 | console.log("Entry is valid.")} else {console.log("Entry is invalid.")};
 | };

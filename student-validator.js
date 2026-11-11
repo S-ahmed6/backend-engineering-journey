@@ -5,7 +5,7 @@ const student={
 | enrolled:true
 | };
  let isValid=true;{
-| if (typeof student.enrolled===isValid){
+| if (student.enrolled===isValid){
 | console.log("Entry is valid.")} else {console.log("Entry is invalid.")};
 | };
  isValid="string"; {

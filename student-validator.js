@@ -25,8 +25,7 @@ if (typeof student.age!=="number"||student.age<1){
 //Check enrolled;
  if (typeof student.enrolled!=="boolean"){
   entry.push("Enrolled entry must be a boolean.");
-  isValid=false:
-isValid=false;
+  isValid=false;
  };
  if (isValid){
  console.log("Student record is valid.")} else {
